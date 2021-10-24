@@ -1,0 +1,215 @@
+@font-face {
+	font-family: RobotoCondensed;
+	src: url("fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf");
+}
+
+@font-face {
+	font-family: Exo2;
+	src: url("fonts/Exo2/Exo2-Regular.ttf");
+}
+
+@font-face {
+	font-family: Mulish;
+	src: url("fonts/Mulish/Mulish-VariableFont_wght.ttf");
+}
+
+@font-face {
+	font-family: MulishB;
+	src: url("fonts/Mulish/Mulish-Bold.ttf");
+}
+
+body {
+	background-color: #90AACB;
+}
+
+header {
+	background-color: #90AACB;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	display: inline-block;
+	margin-left: 85px;
+	margin-top: 14px;
+	margin-bottom: 5px;
+}
+
+.text {
+	font-family: RobotoCondensed;
+	font-size: 32px;
+	color: #F9D5A7;
+}
+
+.lov {
+	color: #FFDEFA;
+	font-family: RobotoCondensed;
+	font-size: 40px;
+}
+
+nav {
+	font-family: Mulish; 
+	font-size: 18px;
+	margin-top: 14px;
+	margin-bottom: 5px;
+}
+
+menu li {
+	display: inline-block;
+	padding-left: 50px;
+}
+
+menu {
+	margin-right: 65px;
+	text-align: center;
+	display: felx;
+	flex-wrap: wrap;
+}
+
+a {
+	text-decoration: none;
+	color: #FEF1E6;
+}
+
+.ad {
+	background-color: #FEF1E6;
+	width: 100%;
+}
+
+.para {
+	padding-left: 85px;
+	font-size: 25px;
+	width: 42%;
+	font-family: Mulish;
+	color: #FFB085;
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+
+.para2 {
+	font-size: 40px;
+	font-family: MulishB;
+	color: #FFB085;
+}
+
+.header {
+	text-align: center;
+	font-family: Exo2;
+	font-size: 35px;
+	color: #212121;
+	padding-top: 45px;
+}
+
+.catalog {
+	display: flex;
+	padding-top: 25px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.goods {
+	display: inline-block;
+	height: 420px;
+	width: 300px;
+	background-color: #FEF1E6;
+	margin-right: 45px;
+	margin-top: 35px;
+	text-align: center;
+}
+
+.assortment {
+	width: 250px;
+	height: 250px;
+	padding-top: 30px;
+}
+
+.discr {
+	font-family: Mulish;
+	font-size: 24px;
+	color: #FFB085;
+}
+
+.buy {
+	height: 50px;
+	width: 120px;
+	border-radius: 20px;
+	background-color: #FFB085;
+	color: #212121;
+	font-family: MulishB;
+	border-color: #FFB085;
+	font-size: 18px;
+} 
+
+.about {
+	font-family: RobotoCondensed;
+	font-size: 20px;
+	background-color: #FEF1E6;
+	color: #FFB085;
+}
+
+.pabout {
+	padding-left: 85px;
+	font-size: 25px;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	width: 75%;
+}
+
+.contact {
+	font-family: RobotoCondensed;
+	font-size: 25px;
+	color: #FEF1E6;
+	padding-left: 85px;
+}
+
+.offer {
+	font-size: 26px;
+	text-align: center;
+}
+
+.offbutton {
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+}
+
+button {
+	height: 50px;
+	width: 200px;
+	font-size: 25px;
+	font-family: sans-serif;
+	margin-bottom: 20px;
+	background-color: #9fe8e0;
+	border: none;
+}
+
+.offerform {
+	padding-bottom: 25px;
+	text-align: center;
+	font-family: Exo2;
+}
+
+input[type=text] {
+  width: 25%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 20px 0;
+  border: none;
+  width: 25%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
