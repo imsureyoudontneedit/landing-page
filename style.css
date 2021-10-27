@@ -185,6 +185,7 @@ button {
 	margin-bottom: 20px;
 	background-color: #9fe8e0;
 	border: none;
+	text-align: center;
 }
 
 .offerform {
@@ -192,7 +193,7 @@ button {
 	padding-bottom: 25px;
 	text-align: center;
 	font-family: Exo2;
-	max-width: 45%;
+	max-width: 55%;
 	background-color: #FEF1E6;
 	padding-top: 25px;
 }
