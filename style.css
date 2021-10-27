@@ -18,6 +18,10 @@
 	src: url("fonts/Mulish/Mulish-Bold.ttf");
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background-color: #90AACB;
 }
@@ -175,7 +179,7 @@ a {
 
 button {
 	height: 50px;
-	width: 200px;
+	width: 300px;
 	font-size: 25px;
 	font-family: sans-serif;
 	margin-bottom: 20px;
@@ -184,9 +188,13 @@ button {
 }
 
 .offerform {
+	margin: 0 auto;
 	padding-bottom: 25px;
 	text-align: center;
 	font-family: Exo2;
+	max-width: 45%;
+	background-color: #FEF1E6;
+	padding-top: 25px;
 }
 
 input[type=text] {
@@ -213,3 +221,4 @@ label {
   cursor: pointer;
   font-size: 17px;
 }
+
